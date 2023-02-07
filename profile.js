@@ -3,7 +3,7 @@ const changeElementsColors = ()=>{
     const day = new Date().getDay()
     const month = new Date().getMonth() + 1
     const year = Number(new Date().getFullYear().toString().slice(1))
-    const bodyTodayColor = `rgb(${year},${day},${month})`
+    const bodyTodayColor = `rgb(${year},${month},${day})`
     body.style.backgroundColor = bodyTodayColor
 
     const everydayElement = document.getElementById('everyday-color')
