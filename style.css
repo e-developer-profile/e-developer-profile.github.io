@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #EBEBEB;
+    background-color: #222222;
     line-height: 1.4em;
     margin: 0;
   }
@@ -21,10 +21,22 @@ body {
   }
   
   .main-container {
-    background-color: #222222;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  
+  .everyday {
+    background-color: rgba(255,255,255,0.4);
+    border-radius: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .everyday > h4 {
+    margin: 0;
   }
